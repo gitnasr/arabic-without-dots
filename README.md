@@ -42,6 +42,7 @@ npm run start
 ```
 
 ## Project Structure
+```
 ├── pages/
 │   ├── _app.js
 │   └── index.js
@@ -51,13 +52,9 @@ npm run start
 │   └── globals.css
 └── config/
     └── tailwind.config.js
+```
 
 ## Contributing
 
 Feel free to open issues and pull requests to improve the application.
 
-## License
-
-Private - See 
-
-package.json
