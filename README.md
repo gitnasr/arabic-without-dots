@@ -4,12 +4,12 @@ A Next.js web application that converts modern Arabic text to classical Arabic s
 
 ## Features
 
-- Real-time conversion of modern Arabic text to classical style
-- Removes diacritical marks (tashkeel)
-- Converts dotted letters to their undotted variants
-- Copy converted text to clipboard
-- Mobile-responsive interface
-- Dark theme UI with Tailwind CSS
+- ✨ Real-time text conversion
+- 🔄 Modern to classical Arabic transformation
+- ❌ Diacritical marks removal
+- 📋 Copy to clipboard functionality
+- 📱 Responsive design
+- 🌙 Dark theme interface
 
 ## Tech Stack
 
@@ -42,39 +42,15 @@ npm run start
 ```
 
 ## Project Structure
-
-- 
-
-index.js
-
- - Main application page
-- 
-
-text.handler.js
-
- - Text conversion logic
-- 
-
-globals.css
-
- - Global styles with Tailwind
-- 
-
-tailwind.config.js
-
- - Tailwind configuration
-
-## Environment Variables
-
-Configuration is in 
-
-next.config.js
-
-. Create a 
-
-.env.local
-
- file for local environment variables.
+├── pages/
+│   ├── _app.js
+│   └── index.js
+├── lib/
+│   └── text.handler.js
+├── styles/
+│   └── globals.css
+└── config/
+    └── tailwind.config.js
 
 ## Contributing
 
